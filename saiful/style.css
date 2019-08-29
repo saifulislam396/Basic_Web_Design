@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  text-align: justify;
+}
+header{
+  width: 100%;
+  height: 80px;
+  background: #000;
+  position: fixed;
+}
+.max_width{
+  width: 1300px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.logo{
+  padding: 16px;
+  width: 20%;
+  float: left;
+}
+.nav_menu{
+  width: 75%;
+  float: left;
+}
+.nav_menu ul li{
+  list-style: none;
+  padding: 14px;
+  float: left;
+  text-transform: uppercase;
+  text-align: center;
+}
+.nav_menu ul li a{
+  text-decoration: none;
+  color: #fff;
+
+}
+.nav_menu ul li:hover{
+  background: green;
+  color: #000;
+  transition: 0.5s;
+}
+/* banner area  */
+
+.banner{
+  width: 100%;
+  height: 620px;
+  background: #8a0d85;
+
+}
+
+
+.ami h1{
+  margin-top: 220px;
+  color: #fff;
+
+}
+ol{
+    display: inline;
+    
+}
+footer{
+    text-align: center;
+    color: #99ff66;
+}
